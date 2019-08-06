@@ -2,7 +2,7 @@ from pprint import pprint
 import oneroster
 
 connector = oneroster.ClasslinkConnector(
-    host_name="https://example.oneroster.com/ims/oneroster/v1p1/",
+    host="https://example.oneroster.com/ims/oneroster/v1p1/",
     client_id='your_client_id',
     client_secret='your_client_secret',
 )

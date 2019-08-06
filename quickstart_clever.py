@@ -2,7 +2,7 @@ from pprint import pprint
 import oneroster
 
 connector = oneroster.CleverConnector(
-    host_name="https://api.clever.com/v2.1/",
+    host="https://api.clever.com/v2.1/",
     access_token="TEST_TOKEN"
 )
 
